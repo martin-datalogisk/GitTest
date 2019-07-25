@@ -3,7 +3,8 @@ program TestGit;
 uses
   Vcl.Forms,
   UnitMain in 'UnitMain.pas' {Form1},
-  FormNew in 'FormNew.pas' {Form2};
+  FormNew in 'FormNew.pas' {Form2},
+  UnitNew in 'UnitNew.pas';
 
 {$R *.res}
 

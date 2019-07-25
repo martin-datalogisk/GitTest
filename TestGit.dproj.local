@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.116,C:\Data\Delphi10.3\Project1.dproj=C:\Data\Delphi10.3\TestGit\TestGit.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.148,C:\Data\Delphi10.3\TestGit\TestGit.dproj=C:\Data\Delphi10.3\TestGit\TestGit.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.747,C:\Data\Delphi10.3\Unit1.dfm=C:\Data\Delphi10.3\TestGit\UnitMain.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.435,C:\Data\Delphi10.3\TestGit\FormNew.dfm=C:\Data\Delphi10.3\TestGit\Unit2.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.433,=C:\Data\Delphi10.3\TestGit\Unit2.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.435,C:\Data\Delphi10.3\TestGit\FormNew.pas=C:\Data\Delphi10.3\TestGit\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.435,C:\Data\Delphi10.3\TestGit\Unit2.dfm=C:\Data\Delphi10.3\TestGit\FormNew.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.211,=C:\Data\Delphi10.3\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.747,C:\Data\Delphi10.3\Unit1.pas=C:\Data\Delphi10.3\TestGit\UnitMain.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.116,C:\Data\Delphi10.3\TestGit\TestGit.dproj=C:\Data\Delphi10.3\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.148,C:\Data\Delphi10.3\TestGit\TestGit.dproj=C:\Data\Delphi10.3\TestGit\TestGit.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.433,=C:\Data\Delphi10.3\TestGit\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.747,C:\Data\Delphi10.3\TestGit\UnitMain.dfm=C:\Data\Delphi10.3\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.435,C:\Data\Delphi10.3\TestGit\Unit2.pas=C:\Data\Delphi10.3\TestGit\FormNew.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.747,C:\Data\Delphi10.3\TestGit\UnitMain.pas=C:\Data\Delphi10.3\Unit1.pas</Transaction>
+    <Transaction>2019-07-25 11:41:46.306,=C:\Data\Delphi10.3\TestGit\Unit1.pas</Transaction>
+    <Transaction>2019-07-25 11:41:57.844,C:\Data\Delphi10.3\TestGit\UnitNew.pas=C:\Data\Delphi10.3\TestGit\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
