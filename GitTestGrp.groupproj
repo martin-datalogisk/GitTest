@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8E4A820B-764B-4463-A3DB-FC53E0B1959B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TestGit.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TestGit">
+        <MSBuild Projects="TestGit.dproj"/>
+    </Target>
+    <Target Name="TestGit:Clean">
+        <MSBuild Projects="TestGit.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestGit:Make">
+        <MSBuild Projects="TestGit.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TestGit"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TestGit:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TestGit:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
